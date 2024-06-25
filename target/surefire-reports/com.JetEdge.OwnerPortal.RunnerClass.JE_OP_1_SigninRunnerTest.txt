@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.JetEdge.OwnerPortal.RunnerClass.JE_OP_1_SigninRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 90.98 s <<< FAILURE! -- in com.JetEdge.OwnerPortal.RunnerClass.JE_OP_1_SigninRunnerTest
+SignIn.Sign In:Valid Check #1 -- Time elapsed: 86.02 s <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: btnContinueTail (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.62, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53250/devtoo..., se:cdpVersion: 126.0.6478.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80a90c42de482e3e5a993b255b2cc55b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.JetEdge.OwnerPortal.StepDefinition.JE_OP_1_SignIn.Check_Tail_button_Is_Displayed_Or_Not(JE_OP_1_SignIn.java:68)
+	at ✽.Check Tail button Is Displayed Or Not(file:///C:/Users/thirumaran/eclipse-workspace/JetEdgeSample/src/test/resources/FeatureFiles/JE_OP_1_SignIn.feature:8)
+
